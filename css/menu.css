@@ -23,8 +23,22 @@
     text-decoration: none;
     font: normal 13pt Arial;
 }
-.navegacao li a:hover {font-weight: bolder;}
+.navegacao li a:hover {
+    font-weight: bolder;
+}
 hr {
     width: 300px;
     margin: auto;
+}
+
+@media (max-width: 375px) {
+    hr {
+        width: 220px;
+    }
+    .navegacao li a {
+        font: normal 10pt Arial;
+    }
+    .navegacao li {
+        padding: 5px;
+    }
 }
