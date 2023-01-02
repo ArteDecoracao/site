@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-nav {
+    background: white;
+    height: 50px;
+    display: flex;
+    
+}
+.navegacao { 
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+}
+.navegacao li {
+    padding: 10px;
+    
+}
+.navegacao li a {
+    color: black;
+    text-decoration: none;
+    font: normal 13pt Arial;
+}
+.navegacao li a:hover {font-weight: bolder;}
+hr {
+    width: 300px;
+    margin: auto;
+}
