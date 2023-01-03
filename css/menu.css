@@ -7,7 +7,6 @@
     background: white;
     height: 50px;
     display: flex;
-    
 }
 .navegacao { 
     display: flex;
@@ -26,13 +25,13 @@
 .navegacao li a:hover {
     font-weight: bolder;
 }
-hr {
+.hr-menu {
     width: 300px;
     margin: auto;
 }
 
 @media (max-width: 375px) {
-    hr {
+    .hr-menu {
         width: 220px;
     }
     .navegacao li a {
