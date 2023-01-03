@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
 }
-
 .menu-nav {
     background: white;
     height: 50px;
@@ -22,14 +21,14 @@
     text-decoration: none;
     font: normal 13pt Arial;
 }
-.navegacao li a:hover {
+.item-menu:hover {
     font-weight: bolder;
+    border-bottom: 1px solid black;
 }
 .hr-menu {
     width: 300px;
     margin: auto;
 }
-
 @media (max-width: 375px) {
     .hr-menu {
         width: 220px;

@@ -1,0 +1,27 @@
+.containerTitulo {
+  text-align: center;
+}
+.titulo {
+  font-family: "Varela Round", sans-serif;
+  font-size: 20pt;
+  margin: auto;
+  margin-top: 20px;
+}
+.contato {
+  max-width: 1200px;
+  min-width: 240px;
+  height: 500px;
+  margin: auto;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px;
+}
+main img {
+  width: 32px;
+  height: 32px;
+  margin-top: 10px;
+}
+
+h1 {
+    margin-top: 20px;
+}
