@@ -1,7 +1,7 @@
 .containerArtes {
     max-width: 1200px;
     min-width: 240px;
-    height: 600px;
+    height: auto;
     margin: auto;
     margin-top: 50px;
     padding: 50px;
