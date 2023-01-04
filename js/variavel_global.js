@@ -1,1 +1,1 @@
-var produtoEscolhido = ''
+var produtoEscolhido = "";
