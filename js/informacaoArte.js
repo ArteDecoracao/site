@@ -11,7 +11,6 @@ var arrayProduto = [
 
 let containerProduto = document.querySelector('.produto')
 
-
 function atualizarProduto() {
     console.log(produtoEscolhido)
     containerProduto.innerHTML = `
