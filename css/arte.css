@@ -9,6 +9,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     border-radius: 15px;
+    
 }
 .arte {
     height: 500px;
@@ -17,6 +18,7 @@
     border-radius: 15px;
     margin-top: 5px;
     text-align: justify;
+    text-align: center;
 }
 .containerIMG {
     overflow: hidden;
@@ -51,8 +53,5 @@ p {
     }
     .nomeArte {
         font-size: 17pt;
-    }
-    .descricao {
-        font-size: 10pt;
     }
 }

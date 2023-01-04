@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./css/logo.css" />
     <link rel="stylesheet" href="./css/arte.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/btnSaibaMais.css">
   </head>
   <body>
     <nav class="menu-nav">
@@ -47,10 +48,7 @@
           <img src="./img/exemplo.jpg" alt="arte" />
         </div>
         <h2 class="nomeArte">NOME DA ARTE</h2>
-        <p class="descricao">
-          DESCRIÇÃO Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Nostrum, molestiae, doloribus quod itaque eius
-        </p>
+        <button class="btnSaibaMais" value="1">SAIBA MAIS</button>
       </div>
 
       <div class="arte">
@@ -58,10 +56,15 @@
           <img src="./img/exemplo.jpg" alt="arte" />
         </div>
         <h2 class="nomeArte">NOME DA ARTE</h2>
-        <p class="descricao">
-          DESCRIÇÃO Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Nostrum, molestiae, doloribus quod itaque
-        </p>
+        <button class="btnSaibaMais" value="2">SAIBA MAIS</button>
+      </div>
+
+      <div class="arte">
+        <div class="containerIMG">
+          <img src="./img/exemplo.jpg" alt="arte" class="ImgArte" />
+        </div>
+        <h2 class="nomeArte">NOME DA ARTE</h2>
+        <button class="btnSaibaMais" value="3">SAIBA MAIS</button>
       </div>
 
       <div class="arte">
@@ -69,10 +72,7 @@
           <img src="./img/exemplo.jpg" alt="arte" />
         </div>
         <h2 class="nomeArte">NOME DA ARTE</h2>
-        <p class="descricao">
-          DESCRIÇÃO Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Nostrum, molestiae, doloribus quod itaque .
-        </p>
+        <button class="btnSaibaMais" value="4">SAIBA MAIS</button>
       </div>
 
       <div class="arte">
@@ -80,12 +80,7 @@
           <img src="./img/exemplo.jpg" alt="arte" />
         </div>
         <h2 class="nomeArte">NOME DA ARTE</h2>
-        <p class="descricao">
-          DESCRIÇÃO Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Nostrum, molestiae, doloribus quod itaque eius exercitationem dolorum
-          quasi totam consequuntur ratione labore esse. Corrupti hic labore
-          repudiandae distinctio dolorem quod ea.
-        </p>
+        <button class="btnSaibaMais" value="5">SAIBA MAIS</button>
       </div>
 
       <div class="arte">
@@ -93,35 +88,14 @@
           <img src="./img/exemplo.jpg" alt="arte" />
         </div>
         <h2 class="nomeArte">NOME DA ARTE</h2>
-        <p class="descricao">
-          DESCRIÇÃO Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Nostrum, molestiae, doloribus quod itaque eius exercitationem dolorum
-          quasi totam consequuntur ratione labore esse. Corrupti hic labore
-          repudiandae distinctio dolorem quod ea.
-        </p>
-      </div>
-
-      <div class="arte">
-        <div class="containerIMG">
-          <img src="./img/exemplo.jpg" alt="arte" />
-        </div>
-        <h2 class="nomeArte">NOME DA ARTE</h2>
-        <p class="descricao">
-          DESCRIÇÃO Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Nostrum, molestiae, doloribus quod itaque eius exercitationem dolorum
-          quasi totam consequuntur ratione labore esse. Corrupti hic labore
-          repudiandae distinctio dolorem quod ea.
-        </p>
+        <button class="btnSaibaMais" value="6">SAIBA MAIS</button>
       </div>
     </main>
 
     <footer class="rodape">
       <ul>
         <li>
-          <p>Início</p>
-        </li>
-        <li>
-          <p>Produto</p>
+          <p class="inicio">Início</p>
         </li>
         <li>
           <a href="./html/contato.html">Contato</a>
@@ -129,15 +103,18 @@
       </ul>
       <ul>
         <li>
-          <img
+          <a href="https://www.instagram.com/artedecoracao8/">
+            <img
             class="img-instagram-rodape"
-            src="./img/instagramColorido.png"
+            src="../img/instagramColorido.png"
             alt="Instagram"
           />
+          </a>
         </li>
       </ul>
     </footer>
 
-    <script src="js/scroll.js"></script>
+    <script src="js/button.js"></script>
+    <script src="./js/variavel_global.js"></script>
   </body>
 </html>
