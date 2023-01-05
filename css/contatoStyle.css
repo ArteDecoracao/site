@@ -25,9 +25,8 @@ main img {
 h1 {
   margin-top: 20px;
 }
-.rodape {
-  bottom: 0;
-}
-body {
-  height: 100%;
+@media (max-width: 500px) {
+  .contato {
+    height: 650px;
+  }
 }
