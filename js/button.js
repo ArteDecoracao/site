@@ -13,6 +13,9 @@ document.addEventListener("click", (e) => {
   valueTarget = targetE.value;
 
   // salvando o valor do quadro que foi clicado no localStorage
-  produtoEscolhido = valueTarget;
-  localStorage.meuProdutoEscolhido = JSON.parse(produtoEscolhido);
+  if(targetE.classList.contains('btnSaibaMais')) {
+    produtoEscolhido = valueTarget;
+    localStorage.meuProdutoEscolhido = JSON.parse(produtoEscolhido);
+  }
+  
 });
