@@ -10,6 +10,9 @@
   justify-content: space-around;
   border-radius: 15px;
 }
+.nomeArte {
+  margin-top: 5px;
+}
 .arte {
   height: 500px;
   width: 320px;
@@ -22,13 +25,14 @@
 .containerIMG {
   overflow: hidden;
   height: 400px;
-  border: 10px solid black;
+  border: 10px solid rgb(0, 0, 0);
 }
 div#marca-pagina {
   border: none;
+  
 }
 .arte img {
-  width: 320px;
+  width: 310px;
   height: 400px;
 }
 .arte img:hover {

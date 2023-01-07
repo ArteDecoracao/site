@@ -9,11 +9,29 @@
   margin-top: 30px;
 }
 .imgProduto img {
-  width: 350px;
+  width: 300px;
   height: 400px;
-  border-radius: 15px;
+  border: 10px solid black;
   margin-top: 50px;
+  transform: translateY(0px);
+  animation: float 5s ease-in-out infinite;
 }
+.imgProduto img#marcador {
+  border: none;
+  width: 250px;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 .descricao {
   width: 400px;
 }
@@ -26,7 +44,7 @@
     width: 250px;
   }
   .nomeProduto {
-    font-size: 20pt;
+    font-size: 16pt;
   }
 }
 @media (max-width: 632px) {
@@ -41,7 +59,7 @@
 @media (max-width: 400px) {
   .imgProduto img {
     width: 250px;
-    height: 300px;
+    height: 320px;
     margin: auto;
   }
   .descricao {
